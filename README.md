@@ -1,4 +1,4 @@
-This Information Security homework examines how unsafe string handling can corrupt stack memory in deliberately vulnerable C programs. The two parts demonstrate how an overflow can affect either an authentication variable or a saved return address.
+This project examines how unsafe string handling can corrupt stack memory in deliberately vulnerable C programs. The two parts demonstrate how an overflow can affect either an authentication variable or a saved return address.
 
 Part 1: Authentication-Variable Overwrite
 

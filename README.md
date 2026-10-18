@@ -28,16 +28,16 @@ Files
 
 q1/q1.py: Authentication-variable overwrite demonstration.
 
-q2/q2a.py: Patterned crash input for debugging.
+q2.py: Patterned crash input for debugging.
 
-q2/q2b.py: Payload construction for the second lab.
+q3.py: Payload construction for the second lab.
 
 q2/shellcode.asm: x86 assembly used by the payload.
 
 Environment and Limitations
 
-The solutions depend on the original Linux lab environment and supplied vulnerable programs. The assembly-based demonstration also requires the course’s infosec utilities.
+The solutions depend on the original Linux lab environment and supplied vulnerable programs.
 
 The second solution uses a fixed stack address and offset measured in that environment. Its behavior depends on the executable, architecture, memory layout, and lab configuration.
 
-Original vulnerable programs and core dumps are not included in this code-only upload.
+Original vulnerable programs and core dumps are not included in this code only upload.
